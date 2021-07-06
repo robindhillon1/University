@@ -1,0 +1,1 @@
+Temperature obtained from fitting: 250.11644216559878 K
