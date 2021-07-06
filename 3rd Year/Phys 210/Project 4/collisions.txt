@@ -1,1 +1,1 @@
-Temperature obtained from fitting: 250.11644216559878 K
+Temperature obtained from fitting f(v): 251.5356129895082K, and from g(E): 249.3488482323658
