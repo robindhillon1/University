@@ -1,0 +1,40 @@
+At dt = 2.5e-2, the concentration plot and the animation seem to become
+different when comparing to the plots when dt = 1e-2. However, looking at the
+Standard Deviation vs Square Root of Time plot, it can be seen that the
+relationship is still linear, as the theory still fits the data points. 
+
+However, when dt=2.6e-2, the concentration plot diverges a lot and the figure
+looks a lot like Figure 2 in the instructions; like beats. Furthermore, the
+animation seems inverted in color; dimmer, and appears to be much more
+pixelated. As time increases, the distortion/pixelation increases and now the
+difference in color is prominent. Also, the Standard Deviation vs Square Root
+of Time plot is no longer linear. The theory line is pretty much flat and the
+data points are a bit randomly distributed as time increases. Now, the theory
+does not fit the data points. Please see the plots and animation, which I
+handed in as well.
+
+At divergence, the value of k = dt*D/dx^2 is 0.25999999999999995.
+
+The totals.txt file shows that for the first 3 times, the sum is pretty much
+equal to 10. But the 4th and last value of time shows that the sum is equal to
+-591.9684751629829.
+
+The threshold for dt when using a grid of 50x50 points is:
+At dt = 10e-2, the animation has started becoming very blurry and a bit
+inverted in color, but the color is still faithful to the convergent animation.
+Also, the concentration plots do not yet represent Figure 2 in the instructions
+or the Beat figure. Also, the standard deviation versus square root of time is
+still linear. Hence, this means at dt = 10e-2 is not the threshold. The totals
+text file is still displaying sums of 10 or so.
+
+However, at dt = 11e-2, the animation has inverted/changed the colors, the
+standard deviation vs square root of time plot is no longer linear, the
+concentrations plot shows a beat figure, and the totals text file shows a final
+integral of concentration of 9.96, which is lower than 10. All of these
+characteristics show that this is the threshold of dt. At higher values of dt,
+these characteristics are more prominent (final integral is in the thousands),
+which proves our claim.
+
+I have run the code of diverges.py once more for 100x100 grid and attached the
+plots, animation, and text file, if you'd like to take a look.
+
