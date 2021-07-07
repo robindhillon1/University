@@ -4,6 +4,7 @@ from scipy import constants, integrate, linalg
 import matplotlib.pyplot as plt
 from matplotlib import animation
 
+# This code is modified from the code initially provided. 
 
 ### Paramters of interest ###
 ############################################################
